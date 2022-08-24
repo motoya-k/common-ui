@@ -14,7 +14,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "JSX=1 tsup src/index.ts --dts",
-    "storybook": "start-storybook -p 9009"
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Motoya Kondo<contact+gh@mtyk.me>",
