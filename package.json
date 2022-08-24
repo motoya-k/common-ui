@@ -24,6 +24,7 @@
     "@storybook/react": "^6.5.10",
     "@types/node": "^18.7.13",
     "@types/react": "^18.0.17",
+    "chromatic": "^6.7.4",
     "find-up": "^6.3.0",
     "tsup": "^6.2.2",
     "typescript": "^4.7.4"

@@ -5,6 +5,7 @@ specifiers:
   '@storybook/react': ^6.5.10
   '@types/node': ^18.7.13
   '@types/react': ^18.0.17
+  chromatic: ^6.7.4
   find-up: ^6.3.0
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -20,6 +21,7 @@ devDependencies:
   '@storybook/react': 6.5.10_xrxvbtylmve4l2tr3vmmqgfp7q
   '@types/node': 18.7.13
   '@types/react': 18.0.17
+  chromatic: 6.7.4
   find-up: 6.3.0
   tsup: 6.2.2_typescript@4.7.4
   typescript: 4.7.4
@@ -5274,6 +5276,14 @@ packages:
   /chownr/2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
+    dev: true
+
+  /chromatic/6.7.4:
+    resolution: {integrity: sha512-QW4i8RQsON0JVnFnRf+8y70aIJptvC0Oi/26YJ669Dl03WmJRpobNO5qWFPTiv3KFKMc1Qf6/qFsRVZCtn+bfA==}
+    hasBin: true
+    dependencies:
+      '@discoveryjs/json-ext': 0.5.7
+      '@types/webpack-env': 1.18.0
     dev: true
 
   /chrome-trace-event/1.0.3:
