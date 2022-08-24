@@ -1,0 +1,31 @@
+{
+  "name": "@motoya-k/common-ui",
+  "version": "0.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "*"
+  ],
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/motoya-k"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "JSX=1 tsup src/index.ts --dts"
+  },
+  "keywords": [],
+  "author": "Motoya Kondo<contact+gh@mtyk.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.17",
+    "find-up": "^6.3.0",
+    "tsup": "^6.2.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
