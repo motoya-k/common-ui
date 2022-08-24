@@ -13,12 +13,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "JSX=1 tsup src/index.ts --dts"
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "storybook": "start-storybook -p 9009"
   },
   "keywords": [],
   "author": "Motoya Kondo<contact+gh@mtyk.me>",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/react": "^6.5.10",
     "@types/node": "^18.7.13",
     "@types/react": "^18.0.17",
     "find-up": "^6.3.0",
@@ -26,6 +29,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
